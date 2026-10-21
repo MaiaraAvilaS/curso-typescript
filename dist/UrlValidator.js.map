@@ -1,0 +1,1 @@
+{"version":3,"file":"UrlValidator.js","sourceRoot":"","sources":["../scripts/UrlValidator.ts"],"names":[],"mappings":";AAAA,IAAU,UAAU,CAQf;AARL,WAAU,UAAU;IAChB,IAAI,QAAQ,GAAW,gEAAgE,CAAA;IAEvF,MAAa,YAAY;QACrB,OAAO,CAAC,GAAU;YACV,OAAO,QAAQ,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;QAC9B,CAAC;KACJ;IAJQ,uBAAY,eAIpB,CAAA;AACL,CAAC,EARK,UAAU,KAAV,UAAU,QAQf"}

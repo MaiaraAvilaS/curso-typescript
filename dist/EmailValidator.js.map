@@ -1,0 +1,1 @@
+{"version":3,"file":"EmailValidator.js","sourceRoot":"","sources":["../scripts/EmailValidator.ts"],"names":[],"mappings":";AAAA,IAAU,UAAU,CAQnB;AARD,WAAU,UAAU;IAChB,IAAI,UAAU,GAAW,iDAAiD,CAAC;IAE3E,MAAa,cAAc;QACtB,OAAO,CAAC,GAAW;YAChB,OAAO,UAAU,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;QAChC,CAAC;KACJ;IAJY,yBAAc,iBAI1B,CAAA;AACL,CAAC,EARS,UAAU,KAAV,UAAU,QAQnB"}
