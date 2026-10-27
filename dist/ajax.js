@@ -12,7 +12,7 @@ class AjaxTest {
         return req.readyState === this.READY_STATUS_CODE;
     }
     httpGet(url, callback) {
-        let req = new XMLHttpRequest();
+        let req = new XMLHttpRequest(); //informa ao TypeScript que req deve ser um objeto compatível com a API XMLHttpRequest do navegador
         req.onreadystatechange = () => {
             let finished = this.isCompleted(req);
             if (finished) {
@@ -23,11 +23,12 @@ class AjaxTest {
         req.send();
     }
     httpPost(url, data, callback) {
+        //url: endereço de destino. data: conteúdo que será enviado. callback: função que processará a resposta.    
         let req = new XMLHttpRequest();
         req.onreadystatechange = () => {
             let finished = this.isCompleted(req);
             if (finished) {
-                callback(req.status, req.responseText);
+                callback(req.status, req.responseText); //A resposta não chega necessariamente no mesmo instante em que a requisição é enviada. O callback permite executar uma ação quando os dados estiverem disponíveis.
             }
         };
         req.open("POST", url, true);
